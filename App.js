@@ -1,0 +1,5 @@
+    const heading = React.createElement("h1",{},"Namaste Everyone!")
+    const heading1 = React.createElement("h2", {}, "Hello World 🙏")
+    const container = React.createElement("div", {id: "container"}, [heading,heading1])
+    const root = ReactDOM.createRoot(document.getElementById("root"))
+    root.render(container)
