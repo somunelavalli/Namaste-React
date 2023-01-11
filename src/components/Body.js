@@ -23,6 +23,7 @@ const Body = () => {
           }}
         />
         <button
+          className="search-btn"
           onClick={() => {
             const data = filterData(searchText, restaurants);
             console.log(data);

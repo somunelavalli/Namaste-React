@@ -34,4 +34,13 @@
   width: 100%;
 }
 
+.search-container {
+  justify-content: center;
+  display: flex;
+}
+
+.search-btn {
+  margin: 0 5px;
+}
+
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

@@ -27440,6 +27440,7 @@ const Body = ()=>{
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "search-btn",
                         onClick: ()=>{
                             const data = filterData(searchText, restaurants);
                             console.log(data);
