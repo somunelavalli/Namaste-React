@@ -1,4 +1,9 @@
-//React Element
+import { useState } from 'react';
+
+const loggedInUser = () => {
+  return false;
+};
+
 const Title = () => (
   <a href="/">
     <img
@@ -12,6 +17,7 @@ const Title = () => (
 // 1.Functional component
 
 const HeaderComponent = () => {
+  const [loggedIn, setLoggedIn] = useState(false);
   return (
     <div className="header">
       <Title />
@@ -23,6 +29,11 @@ const HeaderComponent = () => {
           <li>Cart</li>
         </ul>
       </div>
+      {loggedIn ? (
+        <button onClick={() => setLoggedIn(false)}>Logout</button>
+      ) : (
+        <button onClick={() => setLoggedIn(true)}>Login</button>
+      )}
     </div>
   );
 };

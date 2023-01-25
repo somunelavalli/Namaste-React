@@ -27,6 +27,7 @@
 
 .restaurant-list {
   flex-wrap: wrap;
+  justify-content: center;
   display: flex;
 }
 
