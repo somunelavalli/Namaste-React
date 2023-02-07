@@ -42,3 +42,34 @@
 .search-btn {
   margin: 0 5px;
 }
+
+.banner {
+  background-color: #171a29;
+  color: #fff;
+  height: 245px;
+}
+
+.banner > img {
+  height: 165px;
+  position: absolute;
+  top: 0;
+}
+
+.element {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.element > img {
+  width: 200px;
+  height: 200px;
+}
+
+.color {
+  display: flex;
+  justify-content: space-around;
+  background-color: #171a29;
+  color: white;
+  margin-top: 10px;
+}
